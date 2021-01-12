@@ -16,7 +16,7 @@ client.on('message', async msg => {
 
         setTimeout(() => {
             msg2.edit(".")
-        }, 2000);
+        }, 5000);
 
         for(let i = 0; i < 20; i++){
             setTimeout(() => {
